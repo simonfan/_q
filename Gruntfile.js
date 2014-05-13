@@ -79,7 +79,10 @@ module.exports = function (grunt) {
 		},
 
 		concurrent: {
-			target: ['connect', 'watch']
+			target: ['connect', 'watch'],
+			options: {
+				logConcurrentOutput: true
+			}
 		},
 
 		watch: {
@@ -118,7 +121,7 @@ module.exports = function (grunt) {
 
 					// exclude these modules AND their dependencies
 					// (excluding your bower dependencies)
-					exclude: ["q","lodash"],
+					exclude: ["q", "lodash"],
 
 					// excludeShallow
 					excludeShallow: [],
@@ -149,7 +152,7 @@ module.exports = function (grunt) {
 
 					// exclude these modules AND their dependencies
 					// (excluding your bower dependencies)
-					exclude: ["q","lodash"],
+					exclude: ["q", "lodash"],
 
 					// excludeShallow
 					excludeShallow: [],

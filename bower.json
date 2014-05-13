@@ -1,10 +1,10 @@
 {
   "name": "_q",
   "main": "built/_q.js",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Some module...",
   "dependencies": {
-    "q": "~2.0.0",
+    "q": "~1.0.1",
     "lodash": "~2.4.1",
     "subject": "~0.4.1"
   },

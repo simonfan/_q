@@ -28,6 +28,139 @@
         }
     },
     "classes": {},
-    "classitems": [],
-    "warnings": []
+    "classitems": [
+        {
+            "file": "src/index.js",
+            "line": 21,
+            "description": "[qMap description]",
+            "params": [
+                {
+                    "name": "arr",
+                    "description": "[description]",
+                    "type": "[type]"
+                },
+                {
+                    "name": "fn",
+                    "description": "[description]",
+                    "type": "Function"
+                },
+                {
+                    "name": "ctx",
+                    "description": "[description]",
+                    "type": "[type]"
+                }
+            ],
+            "return": {
+                "description": "[description]",
+                "type": "[type]"
+            },
+            "class": "",
+            "module": "Q"
+        },
+        {
+            "file": "src/index.js",
+            "line": 34,
+            "description": "[qMapValues description]",
+            "params": [
+                {
+                    "name": "obj",
+                    "description": "[description]",
+                    "type": "[type]"
+                },
+                {
+                    "name": "fn",
+                    "description": "[description]",
+                    "type": "Function"
+                },
+                {
+                    "name": "ctx",
+                    "description": "[description]",
+                    "type": "[type]"
+                }
+            ],
+            "return": {
+                "description": "[description]",
+                "type": "[type]"
+            },
+            "class": "",
+            "module": "Q"
+        },
+        {
+            "file": "src/index.js",
+            "line": 50,
+            "description": "[qReduce description]",
+            "params": [
+                {
+                    "name": "arr",
+                    "description": "[description]",
+                    "type": "[type]"
+                },
+                {
+                    "name": "fn",
+                    "description": "[description]",
+                    "type": "Function"
+                },
+                {
+                    "name": "initial",
+                    "description": "[description]",
+                    "type": "[type]"
+                },
+                {
+                    "name": "ctx",
+                    "description": "[description]",
+                    "type": "[type]"
+                }
+            ],
+            "return": {
+                "description": "[description]",
+                "type": "[type]"
+            },
+            "class": "",
+            "module": "Q"
+        },
+        {
+            "file": "src/index.js",
+            "line": 70,
+            "description": "Loops asynchronously.",
+            "itemtype": "method",
+            "name": "qEach",
+            "params": [
+                {
+                    "name": "arr",
+                    "description": "[description]",
+                    "type": "Array"
+                },
+                {
+                    "name": "fn",
+                    "description": "[description]",
+                    "type": "Function"
+                },
+                {
+                    "name": "ctx",
+                    "description": "[description]",
+                    "type": "[type]"
+                }
+            ],
+            "return": {
+                "description": "[description]",
+                "type": "[type]"
+            },
+            "class": "",
+            "module": "Q"
+        }
+    ],
+    "warnings": [
+        {
+            "message": "Missing item type\n[qMap description]",
+            "line": " src/index.js:21"
+        },
+        {
+            "message": "Missing item type\n[qMapValues description]",
+            "line": " src/index.js:34"
+        },
+        {
+            "message": "Missing item type\n[qReduce description]",
+            "line": " src/index.js:50"
+        }
+    ]
 }
